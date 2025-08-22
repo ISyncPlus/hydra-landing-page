@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowTo from "./components/HowTo";
 import JoinHydra from "./components/JoinHydra";
@@ -19,6 +20,7 @@ export default function App() {
       <Technologies/>
       <HowTo/>
       <JoinHydra/>
+      <Footer/>
     </div>
     </>
   );
