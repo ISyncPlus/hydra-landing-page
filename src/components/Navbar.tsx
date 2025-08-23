@@ -5,7 +5,7 @@ import hamburger from '../img/Hamburger-Button.svg'
 export default function Navbar() {
   return (
     <nav className="py-5 px-3 md:px-7 flex justify-between items-center bg-transparent fixed z-100 w-screen">
-        <a href='#' className="flex items-center gap-3 md:px-4 rounded-full backdrop-blur-xs">
+        <a href='#' className="flex items-center gap-3 px-4 md:px-4 rounded-full backdrop-blur-xs">
             <img src={Logo} alt="Logo" className="w-[50%]"/>
             <img src={Title} alt="title" className="w-[50%]" />
         </a>

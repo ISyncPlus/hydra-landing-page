@@ -53,7 +53,7 @@ export default function Hero() {
         </article>
 
         <figure className="flex-1 flex justify-end">
-            <img src={hero} alt="hero image" className=" w-full lg:w-[90%] xl:w-[70%]"/>
+            <img src={hero} alt="hero image" className=" w-full lg:w-[90%] xl:w-[70%] outline-15 rounded-bl-[15.5em] rounded-tl-[6em] rounded-tr-[6em] rounded-br-[7em] outline-black/20 bg-black/20"/>
         </figure>
 
     </section>
