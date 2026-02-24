@@ -8,6 +8,7 @@ import pinterest from '../img/pinterest.png'
 import Button from './Button'
 import Vector_17 from '../vectors/Vector 17.svg'
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
   return (
     <footer className="py-5 px-3 lg:px-7 z-99 relative">
         <section className="flex flex-col lg:flex-row justify-between items-center">
@@ -47,7 +48,7 @@ export default function Footer() {
 
         <img src={Vector_17} alt="v-17" className="my-10 lg:my-20 w-full"/>
 
-        <p className="text-center">2025 © HYDRA LANDING PAGE MADE WITH 💙 BY EBUBE - ALL RIGHTS RESERVED </p>
+        <p className="text-center"> {currentYear} © HYDRA LANDING PAGE MADE WITH 💙 BY EBUBE - ALL RIGHTS RESERVED </p>
 
     </footer>
   );
